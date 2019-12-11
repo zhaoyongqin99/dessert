@@ -1,0 +1,119 @@
+.search{
+    width: 100%;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+    .searchs{
+        width:88%;
+        margin-left: 6%;
+        margin-top: 10px;
+        height: 30px;
+        border: 0;
+        outline: none;
+        border-bottom: 1px solid #111;
+       text-indent: 30px;
+       font-size: 16px;
+       color: #111;
+    }
+    
+    input::placeholder{
+        color: #666;
+        font-size: 16px;
+        text-indent: 30px;
+    }
+    .iconfont{
+        color: #111;
+        font-size: 26px;
+        position: absolute;
+        left: 6%;
+        top: 10px;
+    }
+    .titlediv{
+       position: absolute;
+       right: 6%;
+       top: 15px;
+       color: #666;
+    }
+}
+.search-tip{
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 6%;
+
+    h5{
+        line-height: 30px;
+        font-size: 18px;
+    }
+    span{
+        display: inline-block;
+        width: 20%;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        color: #111;
+        background-color: #eee;
+        margin-right: 3%;
+        margin-top: 5px;
+    }
+}
+.search-result{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    min-height: 200px;
+    background-color: #fff;
+    ul{
+        // display: flex;
+        width: 100%;
+        li{
+            width:47%;
+            float: left;
+            margin-left: 2%;
+            box-sizing:border-box;
+            // height: 200px;
+            border: 1px solid #eee;
+            img{
+                width: 100%;
+                height: auto;
+                max-height: 200px;
+            }
+            h5{
+                font-size: 18px;
+                margin-top: 5px;
+                font-size: 16px;
+                color: #111;
+                text-indent: 10px;
+                line-height: 20px;
+                height: 20px;
+                overflow: hidden;
+            }
+            p{
+                text-indent: 10px;
+                line-height: 30px;
+                margin: 10px auto 15px;
+                font-size: 18px;
+                float: left;
+            }
+            span{
+                display: block;
+                background-color: #eee;
+                color: #666;
+                width: 60px;
+                height: 30px;
+                font-size: 14px;
+                margin:10px 10px 15px;
+                line-height: 30px;
+                text-align: center;
+                float: right;
+            }
+
+        }
+    }
+}
+.noresult{
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+}

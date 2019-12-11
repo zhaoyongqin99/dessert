@@ -1,0 +1,17 @@
+.about-back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(27, 14, 14, 0.171);
+    height: 40px;
+    width: 100%;
+    z-index: 99;
+    line-height: 40px;
+    .iconfont{
+        color: #fff;
+        font-size: 20px;
+        float: left;
+        margin-left: 20px;
+    }
+    
+}

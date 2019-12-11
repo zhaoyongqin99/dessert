@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.goodlist-search{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+    padding-top: 10px;
+    position: fixed;
+    left: 0;
+    .goodlist-searchs{
+        width:88%;
+        margin-left: 6%;
+        height: 30px;
+        border: 0;
+        outline: none;
+        border-bottom: 1px solid #111;
+       
+    }
+    input::placeholder{
+        color: #666;
+        font-size: 16px;
+    }
+    .iconfont{
+        color: #111;
+        font-size: 26px;
+        position: absolute;
+        right: 6%;
+    }
+}
+.goodlist-shelf{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #fff;
+    margin-top: 60px;
+    .shelf-left{
+        width: 30%;
+        position: fixed;
+        left: 0;
+        background-color: #fff;
+        .shelf-left-group{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            text-indent: 10px;
+            margin: 25px 0;
+            margin-left: 5px;
+        }
+        .shelf-left-group:first-child{
+            margin-top: 0;
+        }
+        .selected{
+            border-left: 2px solid #000;
+        }
+    }
+    .shelf-right{
+        height: 540px;
+        width: 70%;
+        margin-left: 30%;
+        
+        .shelf-right-all{
+            width: 100%;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+            .big{
+                width: 90%;
+                margin-right: 8%;
+                margin-left: 2%;
+                margin-bottom: 1%;
+                height: auto;
+                display: inline-block;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .shelf-right-sofa, .shelf-right-cabinet,.shelf-right-bed,.shelf-right-table,.shelf-right-Lamp,.shelf-right-tableware,.shelf-right-decoration,.shelf-right-textile{
+            width: 100%;
+            a{
+                display: inline-block;
+                width: 45%;
+                margin-right: 3%;
+                margin-bottom: 1%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+       
+       
+    }
+}
